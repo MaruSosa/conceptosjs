@@ -14,7 +14,14 @@ document.write('<h1>Prueba de titulo</h1>');
 document.write('Año:'+anioActual+ '<br>');
 document.write('Año:'+anioActual);
 //ventanas emergentes//
-alert('esto es una prueba de alerta');
+// alert('esto es una prueba de alerta');
 let color= prompt('ingrese un color');
 console.log(color);
+//solicitar al usuario un numero y multiplicarlo por 15
+let numeroSeleccionado=parseInt(prompt('ingrese un numero del 1 al 100'));
+console.log(numeroSeleccionado);
+console.log(numeroSeleccionado+15);
+//parseInt('10') devuelve 10
+//parseFloat('10.5') devuelve 10.5
+
 
